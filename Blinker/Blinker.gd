@@ -16,23 +16,23 @@ func _ready() -> void:
 	node_to_blink = get_parent() as Node2D
 
 
-func start():
+func start() -> void:
 	interval_timer.start()
 	duration_timer.start()
 
 
-func abort():
+func abort() -> void:
 	duration_timer.stop()
 	interval_timer.stop()
 	node_to_blink.visible = true
 
 
-func _set_interval(value: float):
+func _set_interval(value: float) -> void:
 	interval = value
 	interval_timer.wait_time = value
 
 
-func _set_duration(value: float):
+func _set_duration(value: float) -> void:
 	duration = value
 	duration_timer.wait_time = value
 
