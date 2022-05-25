@@ -8,6 +8,16 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "Node",
+"class": "Blinker",
+"language": "GDScript",
+"path": "res://Blinker/Blinker.gd"
+} ]
+_global_script_class_icons={
+"Blinker": ""
+}
+
 [application]
 
 config/name="Godot Useful Nodes"
