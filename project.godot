@@ -13,9 +13,21 @@ _global_script_classes=[ {
 "class": "Blinker",
 "language": "GDScript",
 "path": "res://Blinker/Blinker.gd"
+}, {
+"base": "Area2D",
+"class": "Hitbox",
+"language": "GDScript",
+"path": "res://Hboxes/Hitbox.gd"
+}, {
+"base": "Area2D",
+"class": "Hurtbox",
+"language": "GDScript",
+"path": "res://Hboxes/Hurtbox.gd"
 } ]
 _global_script_class_icons={
-"Blinker": ""
+"Blinker": "",
+"Hitbox": "",
+"Hurtbox": ""
 }
 
 [application]
